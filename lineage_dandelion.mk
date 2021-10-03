@@ -30,10 +30,10 @@ TARGET_BOOT_ANIMATION_RES := 720
 TARGET_INCLUDE_LIVE_WALLPAPERS := false
 TARGET_INCLUDE_STOCK_ARCORE := false
 # Inherit some common Aosp stuff
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := aosp_dandelion
+PRODUCT_NAME := lineage_dandelion
 PRODUCT_DEVICE := dandelion
 PRODUCT_BRAND := Redmi
 PRODUCT_MODEL := Redmi G25 Series
