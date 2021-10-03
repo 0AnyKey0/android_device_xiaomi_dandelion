@@ -15,8 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-   $(LOCAL_DIR)/aosp_dandelion.mk
+   $(LOCAL_DIR)/lineage_dandelion.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_dandelion-userdebug \
-    aosp_dandelion-eng
+    lineage_dandelion-userdebug \
+    lineage_dandelion-user \
+    lineage_dandelion-eng
